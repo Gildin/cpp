@@ -1,0 +1,20 @@
+
+/*
+KOD pisany na telefonie, może nie być estetyczny 
+
+Donate: https://paypal.me/pools/c/8vyPm3lmGD
+
+*/
+
+#include<sstream>
+#include <iostream>
+std::stringstream sTOstream(std::string input)
+{
+	std::stringstream output;
+	output << input;
+	return output;
+}
+int main(int argc, char *argv[])
+{
+	
+}
