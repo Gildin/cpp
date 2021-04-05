@@ -1,0 +1,21 @@
+
+
+#include<iostream>
+#include<cstdio>
+
+
+
+
+void SsTOformat(long int sec)
+{
+	int min,hours,days;
+	min=sec/60;
+	hours=min/60;
+	days=hours/24;
+	
+	printf("days: %d\nhours: %d\nmin: %d\nsecs:%d",days,hours,min,sec);
+}
+int main(int argc, char *argv[])
+{
+	SsTOformat(1837);
+}
